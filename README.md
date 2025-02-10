@@ -3,6 +3,7 @@
 This is a fully responsive AI chatbot web application that integrates with Google's Gemini API for text generation. It features emoji support, file attachments with previews, a dynamic input field, and a toggleable UI that adjusts for both desktop and mobile users.
 
 📌 Features
+
 ✅ Responsive Design: The chatbot adapts to different screen sizes. On desktop, it appears in the bottom-right corner, while on mobile, it takes up the full screen.
 
 ✅ Chatbot Toggle: A floating button allows users to open/close the chatbot. The icon dynamically changes between "mode_comment" and "close" based on its state.
@@ -24,6 +25,9 @@ This is a fully responsive AI chatbot web application that integrates with Googl
 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript
+
 API: Google Gemini API for AI text generation
+
 Emoji Support: EmojiMart
+
 Icons: Material Symbols
