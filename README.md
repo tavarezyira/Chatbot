@@ -1,4 +1,5 @@
 🚀 AI Chatbot with Gemini API
+
 This is a fully responsive AI chatbot web application that integrates with Google's Gemini API for text generation. It features emoji support, file attachments with previews, a dynamic input field, and a toggleable UI that adjusts for both desktop and mobile users.
 
 📌 Features
@@ -13,14 +14,15 @@ This is a fully responsive AI chatbot web application that integrates with Googl
 ✅ Emoji Picker: A built-in EmojiMart integration allows users to easily insert emojis into their messages.
 
 ✅ Keyboard Shortcuts:
+  Press Enter to send a message.
+  Press Shift + Enter to insert a new line.
 
-Press Enter to send a message.
-Press Shift + Enter to insert a new line.
 ✅ Auto-Scrolling: The chat automatically scrolls to display the latest messages.
 
 ✅ Modern UI: Styled with CSS transitions, a clean UI, and Material Symbols for icons.
 
 🛠️ Tech Stack
+
 Frontend: HTML, CSS, JavaScript
 API: Google Gemini API for AI text generation
 Emoji Support: EmojiMart
