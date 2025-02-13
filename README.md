@@ -1,33 +1,56 @@
-🚀 AI Chatbot with Gemini API
+# 🤖 Chatbot con Google Gemini API
 
-This is a fully responsive AI chatbot web application that integrates with Google's Gemini API for text generation. It features emoji support, file attachments with previews, a dynamic input field, and a toggleable UI that adjusts for both desktop and mobile users.
+Este es un chatbot interactivo que utiliza la API de Google Gemini para responder preguntas en tiempo real, procesar imágenes y admitir emojis. Su interfaz es moderna, minimalista y completamente responsiva, adaptándose a cualquier dispositivo.
 
-📌 Features
+## 🚀 Características
 
-✅ Responsive Design: The chatbot adapts to different screen sizes. On desktop, it appears in the bottom-right corner, while on mobile, it takes up the full screen.
+### 💬 Funcionalidades principales
+- **Procesamiento de texto**: Responde preguntas en tiempo real con la API de Google Gemini.
+- **Soporte de imágenes**: Permite subir imágenes y obtener respuestas basadas en ellas.
+- **Emojis integrados**: Soporta selección de emojis con un **picker interactivo**.
+- **Interfaz responsiva**: Diseño adaptable con modo de pantalla completa en móviles (<520px).
+- **Historial de conversaciones**: Mantiene contexto en la sesión para mejorar la precisión de respuestas.
 
-✅ Chatbot Toggle: A floating button allows users to open/close the chatbot. The icon dynamically changes between "mode_comment" and "close" based on its state.
+## 🛠️ Tecnologías utilizadas
 
-✅ Real-time API Integration: The chatbot sends user messages to the Gemini API, processes responses, and displays the bot's reply.
+### 🔹 Frontend:
+- **HTML, CSS y JavaScript** – Construcción de la interfaz y gestión de eventos.
+- **Bootstrap** – Diseño responsivo y moderno.
+- **EmojiMart** – Selector de emojis integrado.
 
-✅ File Attachments & Preview: Users can attach images, which appear in the chat before sending. There's also a cancel button to remove the file.
+### 🔹 Backend:
+- **Google Gemini API** – Proporciona respuestas inteligentes basadas en IA.
 
-✅ Emoji Picker: A built-in EmojiMart integration allows users to easily insert emojis into their messages.
+## 📂 Instalación y configuración
 
-✅ Keyboard Shortcuts:
-  Press Enter to send a message.
-  Press Shift + Enter to insert a new line.
+### 🔹 Requisitos previos
+Antes de empezar, asegúrate de tener:
+- **Un navegador web**
+- **Una clave de API de Google Gemini**
 
-✅ Auto-Scrolling: The chat automatically scrolls to display the latest messages.
+### 🔹 Clonar el repositorio
+```sh
+ git clone https://github.com/tavarezyira/Chatbot-Gemini.git
+ cd Chatbot-Gemini
+```
 
-✅ Modern UI: Styled with CSS transitions, a clean UI, and Material Symbols for icons.
+### 🔹 Configurar la API Key
+Abre `script.js` y reemplaza `API_KEY` con tu clave de Google Gemini:
+```js
+const API_KEY = "TU_CLAVE_DE_API";
+```
 
-🛠️ Tech Stack
+### 🔹 Ejecutar el proyecto
+Solo abre `index.html` en tu navegador.
 
-Frontend: HTML, CSS, JavaScript
+## 📌 Uso
+1. **Abre el chatbot** haciendo clic en el botón flotante.
+2. **Escribe un mensaje** y envíalo para recibir una respuesta de la IA.
+3. **Adjunta imágenes** o **selecciona emojis** para enriquecer la interacción.
 
-API: Google Gemini API for AI text generation
-
-Emoji Support: EmojiMart
-
-Icons: Material Symbols
+## ✨ Contribución
+Si deseas contribuir:
+1. **Haz un fork** del repositorio.
+2. **Crea una nueva rama** con tu mejora: `git checkout -b feature-nueva`.
+3. **Realiza los cambios y súbelos**: `git commit -m "Descripción del cambio"`.
+4. **Haz un pull request** en GitHub.
